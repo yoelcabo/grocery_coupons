@@ -1,5 +1,5 @@
 # Introduction
-This small python program aims to help keeping track of a specific promotion codes from a grocery store.
+This small python program is intended to help you keep track of specific promotion codes from a grocery store.
 
 # Usage
 
@@ -44,3 +44,6 @@ Group 8Y: 1/8
 
 ## Sharing information
 If you want to share information with your roomate, just interchange the `monopoly.db` file and run `python monopoly --merge-database < db_file >` 
+
+## Inserting multiple codes at once
+If you want to insert multiple codes at once, you can use the insert_tickets.sh script, which will prompt you for an owner and then as many codes as you want to add.
