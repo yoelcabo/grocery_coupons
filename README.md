@@ -46,4 +46,4 @@ Group 8Y: 1/8
 If you want to share information with your roomate, just interchange the `monopoly.db` file and run `python monopoly --merge-database < db_file >` 
 
 ## Inserting multiple codes at once
-If you want to insert multiple codes at once, you can use the insert_tickets.sh script, which will prompt you for an owner and then as many codes as you want to add.
+If you want to insert multiple codes at once, you can use the insert_tickets.sh script, which will prompt you for an owner and then as many codes as you want to add. Do not forget to `--initialize-db` first.
